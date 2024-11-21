@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <script src="{{ asset('js/app.js') }}" defer></script>
 
+    <title>Clone de Instagram</title>
 
-    <title>clone de intagram</title>
+    <!-- Scripts -->
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-100">
 
@@ -22,7 +22,7 @@
 
                 <a href="">hola:
 
-                    <span class="font-normal"> 
+                    <span class="font-normal">
 
                             luis
 
@@ -37,7 +37,7 @@
 
                             cerrar sesion
                     </button>
-            
+
             </form>
             </nav>
 
@@ -72,11 +72,11 @@
 
     <footer class="mt-10 text-center p-5 text-gray-500 font-bold uppercase">
 
-         CLON DE INSTAGRAM - Todos los derechos reservados 
+         CLON DE INSTAGRAM - Todos los derechos reservados
 
          {{now()->year}}
 
     </footer>
-    
+
 </body>
 </html>
