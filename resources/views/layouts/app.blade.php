@@ -46,7 +46,7 @@
 
                 <a class="font-bold uppercase text-gray-600 text-sm" href="">login</a>
 
-                <a href="/clondeinstagram/public/crear-cuenta" class="font-bold uppercase text-gray-600 text-sm">crear cuenta</a>
+                <a href="/crear-cuenta" class="font-bold uppercase text-gray-600 text-sm">crear cuenta</a>
 
             </nav>
 
